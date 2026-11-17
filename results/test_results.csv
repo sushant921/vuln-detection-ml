@@ -1,6 +1,6 @@
-model,accuracy,f1_vuln
-Dummy,0.544,
-Naive Bayes,0.625,0.582
-SVM,0.616,0.591
-MLP (TF-IDF),0.601,0.591
-CodeBERT,0.642,0.627
+model,accuracy,precision_vuln,recall_vuln,f1_vuln
+Dummy,0.544,,,
+Naive Bayes,0.625,0.592,0.573,0.582
+SVM,0.616,0.575,0.608,0.591
+MLP (TF-IDF),0.601,0.555,0.632,0.591
+CodeBERT,0.642,0.597,0.661,0.627

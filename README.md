@@ -47,6 +47,9 @@ Test set (2,732 functions):
 | MLP on TF-IDF | 0.601 | 0.555 | 0.632 | 0.591 |
 | **CodeBERT (fine-tuned)** | **0.642** | 0.597 | **0.661** | **0.627** |
 
+![Model comparison](results/model_comparison.png)
+![Confusion matrices](results/confusion_matrices.png)
+
 How to read this:
 
 - With 2,732 test samples, the margin of error on accuracy is roughly +/-1.8 points. CodeBERT's lead (about 2 to 4 points on accuracy, 4 to 5 on F1) is suggestive, not conclusive.
@@ -66,6 +69,8 @@ Accuracy:
 | FFmpeg -> QEMU | 0.574 | 0.483 | 0.496 | 0.557 |
 | QEMU -> QEMU | 0.574 | 0.658 | 0.657 | 0.666 |
 | FFmpeg -> FFmpeg | 0.510 | 0.585 | 0.564 | 0.615 |
+
+![Cross-project accuracy](results/cross_project.png)
 
 Findings:
 

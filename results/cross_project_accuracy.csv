@@ -1,0 +1,5 @@
+scenario,trivial,naive_bayes,svm,codebert
+QEMU->FFmpeg,0.51,0.496,0.514,0.528
+FFmpeg->QEMU,0.574,0.483,0.496,0.557
+QEMU->QEMU,0.574,0.658,0.657,0.666
+FFmpeg->FFmpeg,0.51,0.585,0.564,0.615
